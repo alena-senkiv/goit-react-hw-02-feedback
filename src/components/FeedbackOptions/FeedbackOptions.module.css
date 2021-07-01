@@ -1,0 +1,30 @@
+.button {
+  min-width: 100px;
+  min-height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(120%);
+  transition: ease-in 200ms;
+}
+
+.good {
+  composes: button;
+  background-color: seagreen;
+}
+
+.neutral {
+  composes: button;
+  background-color: navajowhite;
+}
+
+.bad {
+  composes: button;
+  background-color: tomato;
+}
