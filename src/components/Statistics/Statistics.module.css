@@ -1,0 +1,16 @@
+.feedback {
+  color: #222222;
+}
+
+.total {
+  composes: feedback;
+  font-weight: bold;
+}
+
+.percentage {
+  composes: feedback;
+  display: inline-block;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid teal;
+}
